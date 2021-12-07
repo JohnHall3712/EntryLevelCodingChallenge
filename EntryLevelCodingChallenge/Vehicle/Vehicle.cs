@@ -25,7 +25,7 @@ namespace EntryLevelCodingChallenge
             this.color = color;
         }
 
-        private int Calculate()
+        public int Calculate()
         {
             int age = DateTime.Now.Year - yearBuilt.Year;
             return age;
